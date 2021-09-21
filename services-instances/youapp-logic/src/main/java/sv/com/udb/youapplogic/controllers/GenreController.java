@@ -10,12 +10,12 @@ import java.util.List;
 @RestController
 @RequestMapping("/genre")
 @CrossOrigin
-public class GenteController {
+public class GenreController {
 
     private final GenreRepository repository;
 
     @Autowired
-    public GenteController(GenreRepository repository) {
+    public GenreController(GenreRepository repository) {
         this.repository = repository;
     }
 
